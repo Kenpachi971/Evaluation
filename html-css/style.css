@@ -1,0 +1,116 @@
+@media all and (max-width:1480px){
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.BarreNav{
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.Nav{
+    display: flex;
+    justify-content: space-around;
+}
+p{
+    padding-left: 3px;
+    padding-right: 2px;
+}
+/*/--------------------------------/*/
+.Container2{
+    padding: 5%;
+}
+.Image{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    height: 350px;
+    width:30%;
+    padding-top: 5%;
+}
+.TextLorem{
+    padding: 2%;
+    border: 1px solid #E7883F;
+    background-color: #E7883F;
+}
+/*/--------------------------------/*/
+.Container3{
+    display: flex;
+    justify-content: space-around;
+}
+.Weight{
+    font-weight: bold;
+}
+.TextContainer{
+padding-top:5%;
+height:100px;
+width: 30%;
+}
+.ContainerGrey{
+height:300px;
+width: 30%;
+background-color: grey;
+}
+}
+
+@media all and (min-width: 380px){
+    body{
+        font-family: 'Roboto', sans-serif;
+    }
+    .Logo{
+        padding-left: 3px;
+    }
+    .BarreNav{
+        width: 100%;
+        border: 1px solid black;
+        display: flex;
+        justify-content: space-between;
+    }
+    .Nav{
+        display: flex;
+        justify-content: space-around;
+    }
+    p{
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    /*/--------------------------------/*/
+    .Container2{
+        padding: 5%;
+    }
+    .Image{
+        display: flex;
+        justify-content: space-between;
+    }
+    img{
+        height: 300px;
+        width:30%;
+        padding-top: 5%;
+    }
+    .TextLorem{
+        padding: 2%;
+        border: 1px solid #E7883F;
+        background-color: #E7883F;
+    }
+    
+    /*/--------------------------------/*/
+    
+    .Container3{
+        display: flex;
+        justify-content: space-around;
+    }
+    .Weight{
+        font-weight: bold;
+    }
+    .TextContainer{
+    padding-top:5%;
+    height:100px;
+    width: 30%;
+    }
+    .ContainerGrey{
+    height:300px;
+    width: 30%;
+    background-color: grey;
+    }
+}
